@@ -1,0 +1,25 @@
+{
+  "name": "travis-test-deployment",
+  "version": "1.0.0",
+  "description": "Testing Travis-CI deployments",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch assets/styles/sass:assets/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesgs/travis-test-deployment.git"
+  },
+  "author": "Jess Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesgs/travis-test-deployment/issues"
+  },
+  "homepage": "https://github.com/jesgs/travis-test-deployment#readme",
+  "devDependencies": {
+    "node-sass": "^4.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
