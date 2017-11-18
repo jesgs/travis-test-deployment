@@ -1,3 +1,4 @@
 #!/bin/bash
-set -e
-ssh test-deploy@psy-dreamer.com -p 9922 -v exit
+git config --global push.default matching
+git remote add production ssh://test-deploy@psy-dreamer.com:9922/home/test-deploy/travis-test-deployment
+git push production master
